@@ -6,6 +6,7 @@
   <title>Gimar Pastelería y Repostería</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -15,13 +16,31 @@
 
   <nav>
     <ul>
-      <li><a href="#galeria">Galería de Productos</a></li>
+      <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+      <li><a href="#galeria">Galería</a></li>
       <li><a href="#momentos">Momentos Dulces</a></li>
       <li><a href="#contacto">Contáctanos</a></li>
     </ul>
   </nav>
 
-  <section id="galeria">
+  <section id="sobre-nosotros" class="seccion">
+    <h2>Endulzamos tus momentos más especiales</h2>
+    <p class="intro">Pastelería artesanal de origen costero. Tortas, tartas, mini postres, cake pops, budines, alfajores y mucho más, elaborados con ingredientes de calidad y un toque casero que enamora.</p>
+    
+    <h3>Nuestra esencia</h3>
+    <p>
+      Gimar nace en la costa con el deseo de acompañar cada celebración con dulces únicos. 
+      Trabajamos por encargo, seleccionando ingredientes frescos y recetas artesanales que 
+      combinan tradición y creatividad. Cada pieza se elabora a mano, con dedicación y 
+      cuidado por los detalles.
+    </p>
+    <p>
+      Atendemos cumpleaños, casamientos, eventos corporativos y reuniones íntimas. 
+      Nos adaptamos a tu estilo y presupuesto para que vivas una experiencia tan deliciosa como memorable.
+    </p>
+  </section>
+
+  <section id="galeria" class="seccion">
     <h2>Galería de Productos</h2>
     <div class="grid">
       <img src="torta-frutilla-reina.webp" alt="Torta Frutilla Reina">
@@ -36,7 +55,7 @@
     </div>
   </section>
 
-  <section id="momentos">
+  <section id="momentos" class="seccion">
     <h2>Momentos Dulces</h2>
     <div class="grid">
       <img src="IMG-20250410-WA0152.webp" alt="Momento dulce 1">
@@ -60,9 +79,9 @@
     </div>
   </section>
 
-  <section id="contacto">
+  <section id="contacto" class="seccion">
     <h2>Contáctanos</h2>
-    <form action="https://formspree.io/f/xovndqjy" method="POST">
+    <form action="https://formspree.io/f/xovndqjy" method="POST" class="formulario">
       <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" name="nombre" required>
 
@@ -77,13 +96,13 @@
   </section>
 
   <footer>
-    <p>© 2025 Gimar Pastelería y Repostería - Todos los derechos reservados</p>
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; margin-top: 10px;">
+    <p>© 2025 Gimar Pastelería y Repostería</p>
+    <div class="social">
       <a href="https://wa.me/541139496500" target="_blank" aria-label="WhatsApp">
-        <i class="fab fa-whatsapp" style="font-size:36px; color:#25D366;"></i>
+        <i class="fab fa-whatsapp"></i>
       </a>
       <a href="https://www.instagram.com/gimar.56/" target="_blank" aria-label="Instagram">
-        <i class="fab fa-instagram" style="font-size:34px; color:#E1306C;"></i>
+        <i class="fab fa-instagram"></i>
       </a>
     </div>
   </footer>
